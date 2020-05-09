@@ -1,0 +1,10 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "globals": { "use": true },
+  "rules": {
+    "prettier/prettier": ["error"],
+    "no-undef": "error",
+    "strict": "off"
+  }
+}
